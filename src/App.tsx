@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // 🔑 REPLACE THIS WITH YOUR GEMINI API KEY FROM aistudio.google.com
-AIzaSyAdQrcfynn8SKqUKKhbdXyKMpOPDpsFK9o
+const GEMINI_KEY = "AIzaSyAdQrcfynn8SKqUKKhbdXyKMpOPDpsFK9o";
 
 const SCENARIOS = [
   "Follow-up", "Cold outreach", "Apology", "Negotiation",
