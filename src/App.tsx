@@ -1,6 +1,6 @@
 import { useState, CSSProperties } from "react";
 
-const GEMINI_KEY = "YOUR_GEMINI_KEY_HERE";
+const GEMINI_KEY = import.meta.env.VITE_GEMINI_KEY;
 
 const SCENARIOS = [
   "Follow-up", "Cold outreach", "Apology", "Negotiation",
